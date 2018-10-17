@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/register.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<div class="header">
+				<a href="../index.html" class="imgleft"></a>
+			<ul class="imgright">
+				<li class="lione"></li>
+				<li class="litwo"></li>
+				<li class="lithree"></li>
+			</ul>
+			</div>
+			</header>
+			<!--正文-->
+			<div class="contain">
+				<div class="register">
+					<div class="head">
+						<ul>
+							<li>会员注册</li>
+							<li>已注册可<a href="login.html" style="color: #f10f86;cursor: pointer;text-decoration: none;">直接登录</a></li>
+						</ul>
+					</div>
+					<div class="register1">
+						<!--手机号码-->
+						<div class="phoneno">
+							<span class="phoneimg"></span>
+							<input type="tel" placeholder="请输入手机号码" class="tel" />
+							
+						</div>
+						<span class="phonetip"></span>
+						<!--验证码-->
+						<div class="yzm">
+						<div class="compare">
+							<span class="cmpimg"></span>
+							<input type="text" placeholder="请输入验证码" class="yanzhengma" />
+						</div>
+						<button class="get">获取验证码</button>
+						</div>
+						<span class="gettip"></span>
+						<!--密码框-->
+						<div class="password">
+							<span class="pwdimg"></span>
+							<input type="text" placeholder="密码由6-20位字母组成，数字和符号组合"  class="pwdtext"/>
+						</div>
+						<span class="pwdtip"></span>
+						<!--验证密码框-->
+						<div class="cmppassword">
+							<span class="pwdimg"></span>
+							<input type="text" placeholder="请再确认输入的密码" class="cmppwdtext" />
+						</div>
+						<span class="cmptip"></span>
+						<!--协议栏-->
+						<div class="protocol">
+						<input type="checkbox" class="checkbox" />
+						<label class="label">我已阅读并接受以下条款：
+							<a href="#">《唯品会服务条款》</a>
+							<a href="#">《隐私条款》</a>
+							<a href="#">《唯品支付用户服务协议》</a>
+							<a href="#">《唯品信用服务协议》</a>
+						</label>
+						</div>
+						<button id="btn">立即注册</button>
+					</div>
+				</div>
+				
+				
+			</div>
+
+			
+			<!--底部-->
+				<footer>
+			<p>Copyright 2008-2018 vip.com，All Rights Reserved ICP证：粤 B2-20080329</p>
+			
+		</footer>
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/register.js"></script>
+	</body>
+</html>

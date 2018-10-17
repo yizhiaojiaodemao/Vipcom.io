@@ -1,0 +1,307 @@
+	*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			body{		background:#f0ebef;}
+			/*标题栏*/
+		
+			.title{
+				font-size: 12px;
+				font-family: simsun;
+				/*行内元素要上下居中的话，只需要让这行的height和line-height相等
+			 就会自动居中*/
+				height: 27px;
+				line-height: 27px;
+				width: 1000px;
+				margin: 2px auto;
+				position: relative;
+				
+			}
+			
+			.welcome{
+				display: inline-block;
+				position: absolute;
+				top: 0; left: 0;
+			}
+			/*.status{
+				list-style: none;
+				display: block;
+				position: absolute;
+				top: 0; right: 0px;
+			}
+			.status li{
+				float: left;
+				margin-left: 12px;
+				
+			}*/
+			/*导航栏*/
+			nav{
+				background:url(../img/header_bg.gif);
+				
+			}
+			.nav1{
+				width: 1000px;
+				margin: 0 auto;
+				position: relative;
+			}
+			.navul{
+				list-style: none;
+				display: block;
+				position: absolute;
+				top: 0; right: 0px;
+				height: 57px;
+				line-height: 57px;
+				
+			}
+			.navul li{
+				float: left;
+				margin-left: 55px;
+				color: white;
+				cursor: pointer;
+				font-family: "微软雅黑";
+			
+			}
+			.navul li a{
+				color: white;
+				cursor: pointer;
+				font-family: "微软雅黑";
+				text-decoration: none;
+			
+			}
+			.navul li:hover{font-weight:bold;}
+			
+			.li1 a{padding-bottom: 7px;  border-bottom: 2px solid white;}
+			.li1 a:hover{
+				border-bottom: none;
+			}
+	/*正文*/
+	.contain{
+		position: relative;
+		 height: 5986px;
+    	width: 1000px;
+   		 margin: 20px auto 0;
+   		 background: #f8f8f8;
+   	
+	}
+aside{
+	
+	height:5986px;
+	width: 188px;
+	background: #fdfdfd;
+	float: left;
+}
+.aside{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+.aside1{
+	position: fixed;
+	top: 0px;
+	left: -500px;
+	margin-left: 50%;
+	
+}
+.left li{
+	cursor: pointer;
+	height: 42px;
+	width: 130px;
+	margin-left: 44px;
+	font-size: 14px;
+	color: #7b7b7b;
+	line-height: 42px;
+	font-family: "微软雅黑";
+	border-bottom: 1px solid #edeeef;
+}
+.pic1{
+	
+	background: url(../img/nav_left_icon.gif)no-repeat 103px 0;
+}
+/*右边正文*/
+.content{
+	height: 5986px;
+	width: 808px;
+
+	float: right;
+	background: #ffffff;
+}
+.article{
+	height: 5986px;
+	width: 677px;
+	margin: 60px auto;
+
+}
+.head{
+	height: 64px;
+	border-bottom: 2px dashed #d7d6d7;
+
+}
+.language a{
+	float: right;
+	line-height: 50px;
+}
+.glasspic{
+	height: 247px;
+	width: 671px;
+	border: 1px solid gainsboro;
+	margin-top: 20px;
+	text-align: center;
+	overflow: hidden;
+}	
+.glasspic img{
+	margin: 6px auto;
+}
+/*VIP与唯品会的相遇*/
+.vipsection{
+	height: 1860px;
+	width: 671px;
+	margin: 20px auto;
+	
+}
+.vipcom{
+	float: right;
+}
+.meetvip{
+	color: #dd238b;
+	font-weight: 300;
+	margin-top: 15px;
+	margin-bottom: 28px;
+	font-size: 22px;
+}
+.vipsection p{
+	color: rgb(51, 51, 51);
+	line-height: 32px;
+	font-size: 14px;
+}
+.underline{
+	display: block;
+	border-bottom: 1px dashed #cccccc;
+}
+.diorpic img{
+	height:462px;
+	width: 808px;
+	margin-left: -68px;
+}
+.vipstep{
+	height: 624px;
+	width: 671px;
+	margin: 485px auto 20px;
+	border: 1px solid #000;
+}
+.steppic{
+	border-bottom: 2px dashed #d7d6d7 ;
+}
+
+.hearvip{
+	height: 524px;
+	width: 671px;
+	margin: 20px auto;
+
+}
+.hearpic{
+	border-bottom: 2px dashed #d7d6d7 ;
+}
+.news{
+	margin-top: 20px;
+	border: 0;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.news td{
+	padding: 0 10px;
+    height: 35px;
+    font-size: 12px;
+    color: #666262
+}
+.news td:nth-of-type(1):hover{
+	color: #dd2399;
+	cursor: pointer;
+}
+.even{
+	background: #ffffff;
+}
+.odd{
+	background: #f4f4f4;
+}
+.more:hover{
+	color: #dd2399;
+	cursor: pointer;
+}
+.culpic{
+	border-bottom: 2px dashed #d7d6d7 ;
+	margin-bottom: 15px;
+}
+.culture p{
+	font-size: 16px;
+	line-height: 36px;
+}
+.culture strong{
+	font-size: 18px;
+	display: block;
+	padding-top: 20px;
+}
+.word{
+	display: block;
+	margin-top: 20px;
+	line-height: 36px;
+}
+.lovepic img{
+	height:437px;
+	width: 670px;
+
+}
+
+footer{
+	height: 480px;width: 100%;position:relative;border: 1px solid white;background: white;
+}
+
+.pictures{
+	margin-top: 24px;
+text-align: center;
+}
+#service{
+	height: 166px;margin-top: 35px;
+	
+}
+.service{
+	height: 166px;width:920px;
+	margin: 0 auto;
+}
+
+.service a:hover{
+	display: block;
+	font-weight: bolder;
+	color: #ee2c8f;
+	cursor: pointer;
+}
+dl{float: left;height: 151px;width: 150px;border-left: 1px solid #e0e0e0;font-size: 12px;}
+.dl6{text-align: center;}
+dt{margin-left: 14px;margin-bottom: 10px;}
+dd{margin-left: 14px;line-height: 20px;}
+
+.message{height: 30px;width: 1000px;background-color: #e02887;margin: 20px auto;}
+.ulmsg{height: 27px;width: 680px;list-style: none;font-size: 12px;margin: 0 auto;}
+.ulmsg li{float: left;height: 18px;width:auto;border-left: 1px solid white;margin-top: 5px;}
+.ulmsg li a{color: white;cursor: pointer; text-decoration: none;}
+.ulmsg li a:hover{color: gray;}
+.ulmsg li.lione{border: none;}
+.copyright p span .a1{color: #999999;}
+.a1,.a2:hover{cursor: pointer;color: #ee2c8f;}
+.copyright{text-align: center;}
+.copyright p{
+	line-height: 22px;
+}
+.copyright p{color: #999999;font-size: 10px;}
+.other a:hover{cursor: pointer;color: #ee2c8f;}
+.lastpic{height: 42px;width: 1000px; margin: 0 auto;}
+.lastpic ul li{list-style: none;float: left;margin-left: 8px;}
+.lastpic ul .lia{background: url(../img/footer-hash-3de6f1ae.png) no-repeat 0 0 ;height: 40px;width: 106px;}
+.lastpic ul .lib{background: url(../img/footer-hash-3de6f1ae.png) no-repeat 0 -149px ;height: 40px;width: 100px;}
+.lastpic ul .lic{background: url(../img/footer-hash-3de6f1ae.png) no-repeat 0 -199px ;height: 40px;width: 106px;}
+.lastpic ul .lid{background: url(../img/footer-hash-3de6f1ae.png) no-repeat 0 -250px ;height: 40px;width: 67px;}
+.lastpic ul .lie{background: url(../img/footer-hash-3de6f1ae.png) no-repeat 0 -301px ;height: 40px;width: 73px;}
+.lastpic ul .lif{background: url(../img/footer-hash-3de6f1ae.png) no-repeat 0 -398px ;height: 34px;width: 76px;}
+.lastpic ul .lig{background: url(../img/footer-hash-3de6f1ae.png) no-repeat 0 -448px ;height: 40px;width:75px;}
+.lastpic ul{height: 42px;width: 750px;margin-left: 141px;}

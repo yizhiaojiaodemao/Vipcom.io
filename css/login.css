@@ -1,0 +1,400 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 100px;
+}
+
+.header {
+	height: 100px;
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+.imgleft {
+	background: url(../img/sprites-hash-701a8168.png) no-repeat -427px -57px;
+	height: 61px;
+	width: 150px;
+	left: 0;
+	top: 22px;
+	position: absolute;
+}
+
+.imgright {
+	list-style: none;
+	height: 43px;
+	width: 322px;
+	position: absolute;
+	top: 35px;
+	right: 0;
+}
+.imgright li {
+	float: left;
+	margin-right: 15px;
+}
+
+.lione {
+	background: url(../img/sprites-hash-701a8168.png) no-repeat 0 -37px;
+	height: 27px;
+	width: 86px;
+}
+
+.litwo {
+	background: url(../img/sprites-hash-701a8168.png) no-repeat -99px -39px;
+	height: 25px;
+	width: 92px;
+}
+
+.lithree {
+	background: url(../img/sprites-hash-701a8168.png) no-repeat -202px -41px;
+	height: 25px;
+	width: 99px;
+}
+/*正文*/
+.contain {
+	height: 650px;
+	background: url(../img/15362959218681.jpg)no-repeat center center;
+	overflow: hidden; /*外边距塌陷*/
+	font-family: "宋体";
+}
+.center{
+	height: 650px;
+	width: 1000px;
+	margin:0 auto;
+}
+/*整个大块*/
+.login {
+	float: right;
+	/*position: relative;*/
+	background: white;
+	height: 460px;
+	width: 360px;
+	margin-left: 814px;
+	margin-top: 50px;
+}
+/*头部*/
+.login1{
+	font-weight: bolder;
+	color: #666666;
+	height: 52px;
+	width: 360px;
+	line-height: 52px;
+	border-bottom: 1px solid gainsboro;
+}
+.login1 li:nth-of-type(1){
+	height: 50px;
+	width: 147px;
+	list-style: none;
+	float: left;
+	margin-left: 50px;
+}
+.login1 li:nth-of-type(2){
+	height: 50px;
+	width: 147px;
+	list-style: none;
+	float: right;
+	margin-right: -16px;
+}
+.login1 li a {
+	text-decoration: none;
+	color: #666666;
+}
+.login1 li a:nth-of-type(1):hover{
+	cursor: pointer;
+	color: #e4007f;
+}
+
+.login1 li a:nth-of-type(3):hover {
+	cursor: pointer;
+	color: #e4007f;
+}
+/*表单*/
+
+.form1{
+	/*position: absolute;*/
+	margin:0 auto;
+	height: 300px;
+	width: 360px;
+	display:none;
+}
+/*/*/
+.form2{
+	display: none;
+	margin: 0 auto;
+	height: 300px;
+	width: 360px;
+	
+}
+.loginimg{
+
+	width: 150px;
+	margin-top: 52px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border: 2px solid whitesmoke;
+	cursor: pointer;
+
+}
+.phoneimg{
+	background: url(../img/sprites-hash-701a8168.png) no-repeat 0px -104px;height: 195px;width: 119px;
+	/*position: absolute;
+	top: 33px;left: 207px;*/
+	margin-left: 200px;
+	margin-top: -194px;
+	display: none;
+}
+.middle{
+	height: 30px;width: 360px;
+	margin-top: 0px;
+}
+.sao{
+	margin-left: 54px;float: left;
+	display: block;margin-top: 5px;margin-right: 5px;
+	
+	background: url(../img/sprites-hash-701a8168.png)no-repeat -596px -120px;height: 18px;width: 18px;
+}
+.p{
+	display: block;
+	line-height: 28px;
+	font-size: 12px;
+	height: 28px;width: 300px;
+}
+
+/*/*/
+.userinput {
+	position: relative;
+	height: 45px;
+	width: 300px;
+	margin: 50px auto 20px;
+	border: 1px solid gainsboro;
+	border-radius: 4px;
+	
+}
+.userinput:hover{
+	border-color: gray;
+}
+
+.username {
+	height: 44px;
+	width: 261px;
+	margin-left: 38px;
+	border: none;outline: none;
+	font-size: 14px;
+}
+.usertip{
+	display: block;
+	height: 20px;
+	width: 200px;
+	margin-left: 30px;
+	margin-top: -18px;
+	font-size: 14px;
+	color: red;
+	font-family:"微软雅黑";
+}
+.userimg {
+	display: block;
+	background: url(../img/sprites-hash-701a8168.png) no-repeat -460px -160px;
+	height: 24px;
+	width: 22px;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+
+.pwd {
+	position: relative;
+	height: 45px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left:auto;
+	margin-right: auto;
+	border: 1px solid gainsboro;
+		border-radius: 4px;
+}
+.pwd:hover{
+	border-color: gray;
+}
+.pwdtip{
+	display: inline-block;
+	height: 20px;
+	width: 200px;
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: red;
+	font-family:"微软雅黑";
+}
+.password {
+	height: 44px;
+	width: 261px;
+	margin-left: 38px;
+	border: none;outline: none;
+	font-size: 14px;
+}
+
+
+.pwdimg {
+	display: block;
+	background: url(../img/sprites-hash-701a8168.png) no-repeat -385px -160px;
+	height: 24px;
+	width: 22px;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+
+
+.checkbox{    
+	vertical-align: text-top;
+	height: 18px;width: 18px;
+	cursor: pointer;
+	}
+
+.static {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	line-height: 40px;
+	height: 40px;
+	width: 300px;
+	margin: -10px 30px 3px;
+	position: relative;
+}
+
+.remember {
+	position: absolute;
+	left: 30px;
+	top: 0px;
+	
+}
+
+.forget {
+	float: right;
+}
+.forget:hover {
+	cursor: pointer;
+	color: #e4007f;
+}
+.logon {
+	font-size: 17px;
+	color: white;
+	background: #e4007f;
+	border: 0;
+	height: 44px;
+	width: 300px;
+	margin: 0px 30px 22px;
+	cursor: pointer;
+}
+.logon:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+/*微信*/
+.wechat {
+	/*position: absolute;*/
+	margin-top:-50px;
+	height: 44px;
+	width: 302px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.wechatimg {
+	margin: 0 auto;
+	background: url(../img/sprites-hash-701a8168.png) no-repeat -300px -160px;
+	height: 42px;
+	width: 40px;
+}
+.wechatimg:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.hr1 {
+	display: block;
+	margin-top: -20px;
+	width: 118px;
+	float: left;
+	opacity: 0.3;
+}
+
+.hr2 {
+	display: block;
+	margin-top: -20px;
+	width: 118px;
+	float: right;
+	opacity: 0.3;
+}
+/*方式*/
+.ways {
+	height: 23px;
+	line-height: 23px;
+	width: 302px;
+	/*position: absolute;*/
+	margin:10px auto;
+	font-size: 13px;
+	
+}
+
+.ways ul {
+	list-style: none;
+	height: 20px;
+}
+
+.ways ul li {
+	float: left;
+	padding-right: 9px;
+	padding-left: 12px;
+	color: #333333;
+}
+
+.ways ul li:nth-of-type(1) {
+	border-right: 1px solid #e0e0e0;
+	padding-left: 0px;
+}
+.ways ul li:nth-of-type(2) {
+	border-right: 1px solid #e0e0e0;
+}
+
+.ways ul li:nth-of-type(3) {
+	border-right: 1px solid #e0e0e0;
+}
+
+.ways ul li:last-of-type {
+	margin-right: 0px;
+	height: 18px;
+	padding-right: 0px;
+	float: right;
+}
+ul li a:hover{
+	cursor: pointer;
+		color: #e4007f;
+}
+/*底部*/
+footer {
+	height: 100px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+footer p {
+	height: 100px;
+	line-height: 100px;
+	font-size: 12px;
+	color: #666666;
+}
+.more{
+	display: inline-block;
+	width: 4px;height: 4px;
+	font-size: 10px;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-top: -8px;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	transform: rotate(135deg);
+}
+.current{
+	display: block;
+}

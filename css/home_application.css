@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: baseline;
+}
+.hot_type{
+	height: 373px;
+}
+
+.hot_type_inner{
+	height: 100%;
+	width: 1000px;
+	margin: 20px auto;
+	/*text-align: center;*/
+	/*border: 1px solid #000;*/
+}
+.hot_type_inner .title{
+	position: relative;
+	height: 65px;
+	top: 0;
+}
+.hot_type_inner .title hr{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -189px;
+	width: 378px;
+}
+.hot_type_inner .title img{
+	position: absolute;
+	padding: 0 20px;
+	top: 5px;
+	left: 50%;
+	margin-left: -80px;
+	background: #fff;
+}
+.hot_type_inner .title p{
+	position: absolute;
+	bottom: 0;
+	color: #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+.hot_type_inner .type_tab{
+	width: 1000px;
+	height: 307px;
+	margin-bottom: 0;
+	overflow: hidden;
+	border: 1px solid #e8ebe4;
+}
+.type_tab .type_change{
+	float: left;
+	box-sizing: border-box;
+}
+.type_tab .type_change li{
+	position: relative;
+	display: block;
+	width: 143px;
+	height: 102px;
+	line-height: 102px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	background: #f4f4f4;
+	border: 1px solid #fff;
+}
+.type_tab .type_change li>span{
+	position: absolute;
+	left: 110px;
+	height: 102px;
+	line-height: 102px;
+	display: none
+}
+.type_tab .type_change li.active{
+	background: #fff;
+	color: #e9af46;
+}
+.type_tab .type_change li.active>span{
+	display: inline-block;
+	animation: pop 0s;
+}
+.type_tab .type_change li:hover{
+	color:  #e9af46;
+}
+.type_tab .type_change li:hover>span{
+	display: inline-block;
+	animation: pop 0.2s linear alternate;
+}
+@keyframes pop{
+	from{transform: translateX(-10px)}
+	to{transform: translateX(0)}
+}
+.type_tab .type_container{
+	width: 855px;
+	height: 305px;
+	float: right;
+}
+.type_container ul{
+	margin-top: 0;
+}
+.type_container ul li{
+	display: block;
+	width: 855px;
+	height: 305px;
+}
+.type_container ul li>a{
+	display: block;
+	float: left;
+	width: 171px;
+	height: 152px;
+	padding-top: 20px;
+	text-align: center;
+	/*border: 1px solid #000;*/
+}
+.type_container ul li>a p{
+	font-size: 14px;
+	line-height: 34px;
+}
+.type_container ul li>a:hover{
+	color: #000;
+	text-decoration: none;
+}
+.type_container ul li>a:hover>img{
+	animation: twinkle 1s;
+}
+@keyframes twinkle{
+	0%{opacity: 1;}
+	50%{opacity: 0.7;}
+	100%{opacity: 1;}
+}
+
+.content_new_special{
+	width: 1000px;
+	margin: 50px auto;
+}
+.content_new_special::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.content_new_special h1{
+	position: relative;
+	width: 1000px;
+	height: 68px;
+	overflow: hidden;
+	text-align: center;
+	margin: 20px auto;
+	font-size: 14px;
+}
+.content_new_special h1 img{
+	position: absolute;
+	left: 50%;
+	margin-left: -585px;
+	color: rgb(241, 1, 128);
+}
+
+.content_new_special ul li{
+	position: relative;
+	float: left;
+	display: block;
+	width: 490px;
+	height: 275px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.content_new_special ul li:nth-of-type(2n){
+	margin-right: 0;
+}
+.content_new_special ul li a>img{
+	width: 490px;
+	height: 235px;
+}
+.content_new_special ul li a>span{
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold; 
+	color: rgb(241, 5, 130); 
+	font-size: 24px;
+	margin: 0 5px 0 10px;
+}
+.content_new_special ul li a{
+	position: relative;
+	display: block;
+	width: 490px;
+}
+.content_new_special ul li a:nth-of-type(1) p{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 5px 0 5px 25px;
+	bottom: 2px;
+	color: #fff;
+}
+.content_new_special ul li a:nth-of-type(1) p::before{
+	position: absolute;
+	content: '';
+	display: block;
+	width: 8px;
+	height: 9px;
+	background: url(../img/index_imgs-hash-1724ef6c.png);
+	left: 10px;
+	top: 50%;
+	margin-top: -5px;
+}
+.content_new_special ul li a:nth-of-type(2){
+	background: #fff;
+}
+.content_new_special ul li a:nth-of-type(2) p{
+	position: absolute;
+	font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	width: 230px;
+	height: 40px;
+	line-height: 48px;
+	left: 20%;
+	top: 0;
+}
+.content_new_special ul li a:nth-of-type(2) p.brand_time{
+	left: 86%;
+}
+.content_new_special ul li a:nth-of-type(2) p.brand_time>i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 3px;
+	vertical-align: middle;
+	background: url(../img/index_imgs-hash-1724ef6c.png) no-repeat -50px 0;
+}

@@ -1,0 +1,56 @@
+.autumn_hot{
+	background: url(../img/a622cc9726b481e4b26103b212be2c25.jpg) center center;
+}
+.autumn_hot_inner{
+	width: 1000px;
+	height: 659px;
+	margin: 0 auto;
+	/*border: 1px solid #000;*/
+}
+.brand_type{
+	background: url(../img/021ff56d92ecd6a2ef9badd0b9d6ce62.jpg) center center;
+}
+.brand_type_inner{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 529px;
+}
+.brand_type_inner a{
+	position: absolute;
+	display: block;
+	width: 180px;
+	height: 200px;
+}
+.brand_type_inner a:nth-of-type(1){
+	left: 128px;
+	top: 66px;
+}
+.brand_type_inner a:nth-of-type(2){
+	left: 312px;
+	top: 66px;
+}
+.brand_type_inner a:nth-of-type(3){
+	left: 496px;
+	top: 66px;
+}
+.brand_type_inner a:nth-of-type(4){
+	left: 680px;
+	top: 66px;
+}
+.brand_type_inner a:nth-of-type(5){
+	left: 128px;
+	top: 300px;
+}
+.brand_type_inner a:nth-of-type(6){
+	left: 312px;
+	top: 300px;
+}
+.brand_type_inner a:nth-of-type(7){
+	left: 496px;
+	top: 300px;
+}
+.brand_type_inner a:nth-of-type(8){
+	left: 680px;
+	top: 300px;
+}

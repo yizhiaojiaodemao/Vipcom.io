@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/homeStyle.css"/>
+	</head>
+	<body>
+		<nav class="top_nav">
+			<div class="container">
+				<div class="top_left">
+					<span class="province">广州市</span>
+					
+					<div class="pro_select hide">
+						<p class="tips">
+							请选择您所在的收货地区
+							<span id="close_this">X</span>
+						</p>
+						<ul>
+							<li class="pro chosen" >省份</li>
+							<li class="city">城市</li>
+						</ul>
+						<div class="pro_city">
+							<ul></ul>
+						</div>
+					</div>
+				</div>
+				<div class="top_right">
+					<ul class="top_rightTool">
+						<li id="login"><a href="html/login.html">请登录</a>
+							<div class="loginTips">
+								<div class="loginTips_top">
+									<span></span>
+									<p><a href="html/login.html">您好！[请登录]</a></p>
+								</div>
+								<div class="loginTips_bottom">
+									<span><a href="#">我的收藏</a></span>
+									<span><a href="#">我的订单</a></span>
+									<span><a href="#">零钱</a></span>
+									<span><a href="#">我的优惠券</a></span>
+									<span><a href="#">我的唯品币</a></span>
+									<span><a href="#">唯品金融</a></span>
+								</div>							
+							</div>
+						</li>
+						<li><a href="html/register.html">注册</a></li>
+						<li id="sign_in">
+							<i id="gift"><img src="img/header_sign-hash-0459d02c.gif" /></i>
+							<a href="#">签到有礼</a>
+						</li>
+						<li id="Order">
+							<a href="#">我的订单</a>
+						</li>
+						<li id="special_sale">
+							<a href="#">我的特卖</a>
+						</li>
+						<li id="vip_club">
+							<a href="html/vipclub.html">会员俱乐部</a>
+						</li>
+						<li id="customer_service">
+							<a href="#">客户服务</a>
+						</li>
+						<li>
+							<i id="app"></i>手机版
+						</li>
+						<li>
+							更多<i id="more"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<nav class="aside_nav">
+			<div class="aside_nav_container">
+				<ul class="top">
+					<li id="account">
+						<i></i>
+						<span class="account_hiden"></span>
+					</li>
+					<li id="shopping_bag">
+						<i></i>
+						<p>购物袋</p>
+						<i>0</i>
+					</li>
+					<li id="ticket">
+						<i></i>
+						<span class="ticket_hiden">我的优惠券</span>
+					</li>
+					<li id="brand">
+						<i></i>
+						<span class="brand_hiden">品牌收藏</span>
+					</li>
+					<li id="items">
+						<i></i>
+						<span class="items_hiden">商品收藏</span>
+					</li>
+					<li id="footprint">
+						<i></i>
+						<span class="footprint_hiden">我的足迹</span>
+					</li>
+				</ul>
+				<ul class="bottom">
+					<li id="survey">
+						<i></i>
+					</li>
+					<li id="returnTop">
+						<i><a href="index.html"></a></i>
+					</li>
+				</ul>
+			</div>
+				
+		</nav>
+		<header>
+			<div class="inner_header">
+				<a href="index.html" class="logo"><img src="img/1504164551874.png" width="160px" height="100px"/></a>
+				<a href="#" class="vip1"></a>
+				<a href="#" class="vip2"></a>
+				<a href="#" class="vip3"></a>
+				<div class="searchbox">
+					<input type="text" name="search_inner" id="search_content" placeholder="大家都在搜 面膜" />
+					<a href="#">
+						<span id="btn_search"></span>	
+					</a>
+				</div>
+				<div class="shopping_Bag">
+					<span id="bag"></span>
+					<span id="bagTxt">购物袋</span>
+					<span id="bagNum">0</span>
+				</div>
+			</div>
+		</header>
+		<nav class="main_nav">
+			<div class="inner_nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="html/femaleBrand.html">女装</a></li>
+					<li><a href="#">母婴</a></li>
+					<li><a href="html/home_application.html">家电</a></li>
+					<li><a href="#">国际</a></li>
+					<li><a href="#">美妆</a></li>
+					<li><a href="#">鞋包</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">运动</a></li>
+					<li><a href="#">家居</a></li>
+					<li><a href="#">更多</a></li>
+					<li><a href="#"><img src="img/catagory.png"/>分类</li>
+					<li><a href="#"><img src="img/notice.png"/>预告</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section>
+			<div class="left_guideTool">
+				<ol>
+					<li class="active">
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-jingxuanshichang"></use>
+								</svg>
+							</span>
+							<span>精选</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-nvzhuang"></use>
+								</svg>
+							</span>
+							<span>女装</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-fenleifushixiebao"></use>
+								</svg>
+							</span>
+							<span>鞋包</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-nanzhuang"></use>
+								</svg>
+							</span>
+							<span>男装</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-huwaiyundong"></use>
+								</svg>
+							</span>
+							<span>运动</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-weibiaoti2fuzhi02"></use>
+								</svg>
+							</span>
+							<span>饰品</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-huazhuangpin"></use>
+								</svg>
+							</span>
+							<span>美妆</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-muying"></use>
+								</svg>
+							</span>
+							<span>母婴</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-jiajujiafang"></use>
+								</svg>
+							</span>
+							<span>居家</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-world"></use>
+								</svg>
+							</span>
+							<span>国际</span>
+						</a>
+					</li>
+					<li>
+						
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-yingtao1"></use>
+								</svg>
+							</span>
+							<span>生活</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-riliriqi"></use>
+								</svg>
+							</span>
+							<span>预告</span>
+						</a>
+					</li>
+		
+				</ol>
+			</div>
+			<div class="slide_box">
+				<div class="inner_slide_box">
+					<div class="inner_slide_img">
+						<ul>
+							<li class="current"><img src="img/15354391913001.jpg" width="974px" height="340px"/></li>
+							<li><img src="img/15353512579382.jpg" width="974px" height="340px"/></li>
+							<li><img src="img/15354432597984.jpg" width="974px" height="340px"/></li>
+							<li><img src="img/15354461278028.jpg" width="974px" height="340px"/></li>
+							<li><img src="img/15354425687223.jpg" width="974px" height="340px"/></li>
+							<li><img src="img/15354391913001.jpg" width="974px" height="340px"/></li> 
+						</ul> 
+						<span id="toLeft">&lt;</span><span id="toRight">&gt;</span>
+					</div>
+					<div class="inner_slide_tab">
+						<ul>
+							<li class="current">迪士尼VIP大牌日</li>
+							<li>运动星际秋旅 最高满298-80</li>
+							<li>秋日尝鲜 最高满199-100</li>
+							<li>跨品牌最高满598-100</li>
+							<li>开学换新季 满199-40</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="content_rmv">
+				<div class="content_rmv_inner">
+					<img src="img/15344789862278.jpg" alt="" width="1000px"/>
+					<img src="img/15344779654591.jpg" alt="" width="208px"/>
+					<img src="img/15347564520917.jpg" alt="" width="208px"/>
+					<img src="img/15344782291383.jpg" alt="" width="208px"/>
+					<img src="img/15344789267226.jpg" alt="" width="316px"/>
+					<img src="img/15344783872795.jpg" alt="" width="316px"/>			
+				</div>
+			</div>
+			<div class="content_new">
+				<div class="content_new_top">
+					<img src="img/title.png" />
+					<div id="seckill">
+						<span></span>今日秒杀
+					</div>
+					<ul class="content_new_sideBar">
+						<li>护肤</li>
+						<li>女装</li>
+						<li>男装</li>
+						<li>母婴</li>
+						<li>箱包</li>
+						<li>内衣</li>
+						<li>零食</li>
+						<li>家电</li>
+						<li>家用</li>
+					</ul>
+				</div>
+				<div class="content_new_bottom">
+					<a href="#"><img src="img/leftSide.jpg"/></a>
+					<div class="content_new_bottom_innerSide">
+						<ul>
+							<li>
+								<a href="#"><img src="img/new1.PNG" alt="" /></a>
+								<p title="1条装洁丽雅纯棉素色锻档浴巾（多色可选）">1条装洁丽雅纯棉素色锻档浴巾（多色可选）</p>
+								<div id="seckillPrice">
+									秒杀价
+									<span class="seckill_icon">￥</span>
+									<span id="seckill_price">69</span>
+									<span style="color: #ccc;">￥</span>
+									<span id="original_price">215</span>
+								</div>
+							</li>
+							<li>
+								<a href="#"><img src="img/new2.PNG" alt="" /></a>
+								<p title="蓝月亮 深层洁净护理洗衣液(自然清香)500g*12">蓝月亮 深层洁净护理洗衣液(自然清香)500g*12</p>
+								<div id="seckillPrice">
+									秒杀价
+									<span class="seckill_icon">￥</span>
+									<span id="seckill_price">131</span>
+									<span style="color: #ccc;">￥</span>
+									<span id="original_price">150</span>
+								</div>
+							</li>
+							<li>
+								<a href="#"><img src="img/new3.png" alt="" /></a>
+								<p title="日式手绘雪梅釉下彩碗勺4件套">日式手绘雪梅釉下彩碗勺4件套</p>
+								<div id="seckillPrice">
+									秒杀价
+									<span class="seckill_icon">￥</span>
+									<span id="seckill_price">39</span>
+									<span style="color: #ccc;">￥</span>
+									<span id="original_price">128</span>
+								</div>
+							</li>
+							<li>
+								<a href="#"><img src="img/new4.png" alt="" /></a>
+								<p title="M8摩焕 自动手压双驱单桶 免手洗拖把 旋转拖把">M8摩焕 自动手压双驱单桶 免手洗拖把 旋转拖把</p>
+								<div id="seckillPrice">
+									秒杀价
+									<span class="seckill_icon">￥</span>
+									<span id="seckill_price">98</span>
+									<span style="color: #ccc;">￥</span>
+									<span id="original_price">298</span>
+								</div>
+							</li>
+							<li>
+								<a href="#"><img src="img/new5.png" alt="" /></a>
+								<p title="翻盖储物整理收纳箱">翻盖储物整理收纳箱</p>
+								<div id="seckillPrice">
+									秒杀价
+									<span class="seckill_icon">￥</span>
+									<span id="seckill_price">178</span>
+									<span style="color: #ccc;">￥</span>
+									<span id="original_price">599</span>
+								</div>
+							</li>
+							<li>
+								<a href="#"><img src="img/new6.png" alt="" /></a>
+								<p title="滴露洗衣除菌消毒液薰衣草2.5L+1L*3 箱装">滴露洗衣除菌消毒液薰衣草2.5L+1L*3 箱装</p>
+								<div id="seckillPrice">
+									秒杀价
+									<span class="seckill_icon">￥</span>
+									<span id="seckill_price">146</span>
+									<span style="color: #ccc;">￥</span>
+									<span id="original_price">389</span>
+								</div>
+							</li>
+							<li>
+								<a href="#"><img src="img/new7.png" alt="" /></a>
+								<p title="萌宠陶瓷马克杯-旺福（随机发货）">萌宠陶瓷马克杯-旺福（随机发货）</p>
+								<div id="seckillPrice">
+									秒杀价
+									<span class="seckill_icon">￥</span>
+									<span id="seckill_price">39</span>
+									<span style="color: #ccc;">￥</span>
+									<span id="original_price">78</span>
+								</div>
+							</li>
+							<li>
+								<a href="#"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="content_special">
+				<div class="content_special_inner">
+					<img src="img/today_DDp.png" alt="" width="100%"/>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="img/PC_yzfb.jpg" alt="" width="490px"/>
+							</a>
+							<div class="content_special_hover">
+								<a href="#">
+									<img src="img/1856462783-250870860674080847-250870860674084865-50_5t_235x297_90.jpg" alt="" /><p>￥2459</p>
+								</a>
+								<a href="#">
+									<img src="img/4306f864-2db5-4822-98f2-d85cfcb373ca_5t_235x297_90.jpg" alt="" /><p>￥1807</p>
+								</a>
+								<a href="#">
+									<img src="img/f2fda862-1cf1-405d-95fd-9f533ec5c142_5t_235x297_90.jpg" alt="" /><p>￥1417</p>
+								</a>
+								<p style="height: 1px; border-bottom: 1px dashed #000; margin-top: 200px;"></p>
+								<div class="primary">
+									<img src="img/primary.png" alt="" />
+									<span><i>♡ </i>收藏店铺</span>
+									<span>进入专场</span>
+								</div>
+							</div>
+							
+						</li>
+						<li><a href="#">
+							<img src="img/PC1_ofio.png" alt="" width="490px"/></a>
+							<div class="content_special_hover">
+								<a href="#"><img src="img/LZ20180806005-5_235x297_90.jpg" alt="" /><p>￥430</p></a>
+								<a href="#"><img src="img/LZ20180622001-5_235x297_90.jpg" alt="" /><p>￥485</p></a>
+								<a href="#"><img src="img/8806403507632-5_235x297_90.jpg" alt="" /><p>￥125</p></a>
+								<p style="height: 1px; border-bottom: 1px dashed #000; margin-top: 200px;"></p>
+								<div class="primary">
+									<img src="img/primary (1).png" alt="" />
+									<span><i>♡ </i>收藏店铺</span>
+									<span>进入专场</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#"><img src="img/PC8_tmwz.jpg" alt="" width="490px"/></a>
+							<div class="content_special_hover">
+								<a href="#"><img src="img/46d5eee0-56b3-4be5-b1ae-09698c88fa14_5t_235x297_90.jpg" alt="" /><p>￥298</p></a>
+								<a href="#"><img src="img/2603a688-6a72-4acd-8a5e-766777ed992c_5t_235x297_90.jpg" alt="" /><p>￥200</p></a>
+								<a href="#"><img src="img/87538ac1-911f-4276-86ab-3b3e93adf9f3_5t_235x297_90.jpg" alt="" /><p>￥58</p></a>
+								<p style="height: 1px; border-bottom: 1px dashed #000; margin-top: 200px;"></p>
+								<div class="primary">
+									<img src="img/primary (2).png" alt="" />
+									<span><i>♡ </i>收藏店铺</span>
+									<span>进入专场</span>
+								</div>
+								
+							</div>
+						</li>
+						<li>
+							<a href="#"><img src="img/oo.jpg" alt="" width="490px"/></a>
+							<div class="content_special_hover">
+								<a href="#"><img src="img/1702324997-316735902999908365-316735902999908479-5_235x297_90.jpg" alt="" /><p>￥299</p></a>
+								<a href="#"><img src="img/1784273308-447340257468485645-447340257468489763-50_5t_235x297_90.jpg" alt="" />￥387<p></p></a>
+								<a href="#"><img src="img/1963306986-322083899976704005-322083899976704057-5_235x297_90.jpg" alt="" /><p>￥181</p></a>
+								<p style="height: 1px; border-bottom: 1px dashed #000; margin-top: 200px;"></p>
+								<div class="primary">
+									<img src="img/primary (3).png" alt="" />
+									<span><i>♡ </i>收藏店铺</span>
+									<span>进入专场</span>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="content_femaleBrand">
+				<h1>
+					<img src="img/woman_2ad.png" alt="" />
+					<a href="#">全部女装品牌<i>&gt;</i></a>
+				</h1>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/ias_153481881121995_570x273_90.jpg" alt="" />
+							<p title="满399元减20元,满599元减40元,封顶">满399元减20元,满599元减40元,封顶</p>
+						</a>
+						<a href="#">
+							<span>2.2</span>折起
+							<p>Five Plus女装专场</p>
+							<p class="brand_time"><i></i>剩2天</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/ias_153439965973050_570x273_90.jpg" alt="" />
+							<p title="200元任选4件，上不封顶">200元任选4件，上不封顶</p>
+						</a>
+						<a href="#">
+							<span>2.2</span>折起
+							<p>200元选4件-安莉芳集团时尚潮牌内衣专场</p>
+							<p class="brand_time"><i></i>剩3天</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/ias_153432592237954_570x273_90.jpg" alt="" />
+							<p title="购满299元即享8.5折优惠，购满499元即享8折优惠~">购满299元即享8.5折优惠，购满499元即享8折优惠~</p>
+						</a>
+						<a href="#">
+							<span>2.2</span>折起
+							<p>恩裳INSUN女装专场</p>
+							<p class="brand_time"><i></i>剩3天</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/ias_153543996545222_570x273_90.jpg" alt="" />
+							<p title="满199元减100元,上不封顶">满199元减100元,上不封顶</p>
+						</a>
+						<a href="#">
+							<span>2.2</span>折起
+							<p>夜惊喜-衣品天成男女混合专场</p>
+							<p class="brand_time"><i></i>剩12天</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div></div>
+		</section>
+		<footer>
+			
+				<div class="pictures">
+					<img src="img/footer_vip_iconsv_0705-hash-728f749a.png" />
+				</div>
+				<div id="service">
+				<div class="service">
+					<dl class="dl1">
+				<dt>服务保障
+				<dd><a>·正品保证</a></dd>
+				<dd><a>·7天无理由放心退</a></dd>
+				<dd><a>·退货返运费</a></dd>
+				<dd><a>·7x15小时客户服务</a></dd>
+				<dd><a>·7天无理由随心换</a></dd>
+			</dt>
+					</dl>
+				<dl class="dl2">
+				<dt>购物指南
+				<dd><a>·导购演示</a></dd>
+				<dd><a>·订单操作</a></dd>
+				<dd><a>·会员注册</a></dd>
+				<dd><a>·账户管理</a></dd>
+				<dd><a>·收货样品</a></dd>
+				<dd><a>·会员等级</a></dd>
+			</dt>
+		</dl>
+			<dl class="dl3">
+				<dt>支付方式
+				<dd><a>·快捷支付</a></dd>
+				<dd><a>·23家主流网银支付</a></dd>
+				<dd><a>·货到付款</a></dd>
+				<dd><a>·支付宝、银联等支付</a></dd>
+				<dd><a>·信用卡支付</a></dd>
+				<dd><a>·零钱支付</a></dd>
+			</dt>
+		</dl>
+		<dl class="dl4">
+				<dt>配送方式
+				<dd><a>·全场满288元免运费</a></dd>
+				<dd><a>·配送范围及运费</a></dd>
+				<dd><a>·验货与签收</a></dd>
+			</dt>
+		</dl>
+			<dl class="dl5">
+				<dt>售后服务
+				<dd><a>·退货政策</a></dd>
+				<dd><a>·退货流程</a></dd>
+				<dd><a>·退款方式和时效</a></dd>
+				<dd><a>·换货服务</a></dd>
+			</dt>
+		</dl>
+		<dl class="dl6">
+			<dt >唯品会APP二维码</dt>
+			<dd ><img src="img/page_bottom_dl_n.png"/></dd>
+			<dd >下载唯品会移动APP</dd>
+		</dl>
+		</div>
+		</div>
+		
+		<div class="message">
+			<ul class="ulmsg">
+				<li class="li1"><a href="html/knowus.html">&nbsp;关于我们&nbsp;</a></li>
+				<li><a>&nbsp;About us&nbsp;</a></li>
+				<li><a>&nbsp;Investor Relations&nbsp;</a></li>
+				<li><a>&nbsp;媒体报道&nbsp;</a></li>
+				<li><a>&nbsp;品牌招商&nbsp;</a></li>
+				<li><a>&nbsp;隐私条款&nbsp;</a></li>
+				<li><a>&nbsp;唯品诚聘&nbsp;</a></li>
+				<li><a>&nbsp;365唯品基金&nbsp;</a></li>
+				<li><a>&nbsp;唯品卡&nbsp;</a></li>
+				<li><a href="html/callus.html">&nbsp;联系我们&nbsp;</a></li>
+			</ul>
+		</div>
+		<div class="copyright">
+			<p>Copyright © 2008-2018 vip.com，All Rights Reserved  使用本网站即表示接受<span><a class="a1">唯品会用户协议</a></span>。版权所有<span><a class="a2">&nbsp;广州唯品会电子商务有限公司</a></span> </p>
+			<p class="other"><a><img src="img/police_icon.png">&nbsp;粤公网安备 44010302111111号&nbsp;&nbsp;</a><a>粤ICP备08114786号</a> <a>增值业务经营许可证：粤B2-20170777&nbsp;</a><a>网络文化经营许可证：粤网文〔2015〕1528-229&nbsp;</a>   </p>
+			<p class="other"><a>自营主体经营证照&nbsp;&nbsp;</a> <a>风险监测信息&nbsp;&nbsp;</a> <a>互联网药品交易服务资格证（粤C20140002）</a>  </p>
+		</div>
+			<div class="lastpic">
+			<ul>
+				<li class="lia"></li>
+				<li class="lib"></li>
+				<li class="lic"></li>
+				<li class="lid"></li>
+				<li class="lie"></li>
+				<li class="lif"></li>
+				<li class="lig"></li>
+			</ul>
+			</div>
+		</footer>
+		<script src="js/iconfont.js"></script>
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/home.js"></script>
+	</body>
+</html>
